@@ -1,4 +1,4 @@
-package com.yeshu.moviesApi;
+package com.yeshu.moviesApi.Model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,4 +15,8 @@ public class Review {
     @Id
     private ObjectId id;
     private String body;
+
+    public Review(String body) {
+        this.body = body;
+    }
 }

@@ -1,4 +1,4 @@
-package com.yeshu.moviesApi;
+package com.yeshu.moviesApi.Model;
 
 
 import lombok.AllArgsConstructor;
